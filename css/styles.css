@@ -16,19 +16,21 @@ body {
 }
 a:visited {
     text-decoration: none;
-    color: #D8D9CF;
+    color: #f9faf8;
 }
 
 /* HEADER */
 header {
+    width: 100%;
+    margin: 0;
+    padding: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    margin: 0;
-    padding: 8px;
-    color: white;
-    background-color: #1f2937;
+    color: #e5e7eb;
+    background-color: black;
+    /* change back to dark blue so they blend into one-another */
 }
 
 .header-logo {
@@ -47,3 +49,45 @@ header {
 } 
 
 /* HERO */
+ .hero {
+    position: absolute;
+    width: 100%;
+    /* how the hero looks */
+    margin: 0;
+    height: 400px;
+    color: #e5e7ebb6;
+    background-color: #1f2937;
+ }
+
+ h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+ }
+
+ .hero {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+ }
+
+ .hero-text {
+    margin: auto;
+    display: inline-block;
+ }
+
+ .header-btn {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+
+    font-size: 16px;
+}
+
+ .placeholder-image {
+    margin: auto;
+    display: inline-block;
+ }
