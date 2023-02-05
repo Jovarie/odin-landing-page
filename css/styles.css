@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
  ul {
     list-style-type: none;
@@ -91,3 +92,5 @@ header {
     margin: auto;
     display: inline-block;
  }
+
+ /* INFORMATION */
